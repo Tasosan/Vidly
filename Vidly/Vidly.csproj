@@ -222,9 +222,26 @@
     <Compile Include="Migrations\201811062204143_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201811062204143_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201811070913544_ChangeMemebershipType.cs" />
+    <Compile Include="Migrations\201811070913544_ChangeMemebershipType.Designer.cs">
+      <DependentUpon>201811070913544_ChangeMemebershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811070925175_AddedBirthDateToCustomerModel.cs" />
+    <Compile Include="Migrations\201811070925175_AddedBirthDateToCustomerModel.Designer.cs">
+      <DependentUpon>201811070925175_AddedBirthDateToCustomerModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811070938568_AddedBirthDateToCustomerModel1.cs" />
+    <Compile Include="Migrations\201811070938568_AddedBirthDateToCustomerModel1.Designer.cs">
+      <DependentUpon>201811070938568_AddedBirthDateToCustomerModel1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201811070959291_AddedGenre.cs" />
+    <Compile Include="Migrations\201811070959291_AddedGenre.Designer.cs">
+      <DependentUpon>201811070959291_AddedGenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -296,6 +313,7 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\Random.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -328,6 +346,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201811062204143_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201811062204143_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811070913544_ChangeMemebershipType.resx">
+      <DependentUpon>201811070913544_ChangeMemebershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811070925175_AddedBirthDateToCustomerModel.resx">
+      <DependentUpon>201811070925175_AddedBirthDateToCustomerModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811070938568_AddedBirthDateToCustomerModel1.resx">
+      <DependentUpon>201811070938568_AddedBirthDateToCustomerModel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201811070959291_AddedGenre.resx">
+      <DependentUpon>201811070959291_AddedGenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
